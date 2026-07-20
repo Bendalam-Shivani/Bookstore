@@ -147,4 +147,4 @@ This project was developed for learning and internship purposes.
 
 **Repository:** [https://github.com/Bendalam-Shivani/Bookstore](https://github.com/Bendalam-Shivani/Bookstore)
 
-**Website:** https://github.com/<your-username>/<repository-name>
+**Website:** [https://bendalam-shivani.github.io/Bookstore](https://bendalam-shivani.github.io/Bookstore)
