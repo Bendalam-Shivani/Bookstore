@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+<title>Bookstore</title>
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+    <!-- Navbar -->
+    <nav class="navbar bg-light shadow-sm py-3">
+        <div class="container-fluid">
+
+            <a class="navbar-brand d-flex align-items-center fw-bold" href="index.html">
+                <img src="bookstore.png"
+                    alt="Bookstore Logo"
+                    width="30"
+                    height="30"
+                    class="d-inline-block align-text-top me-2">
+                Bookstore
+            </a>
+
+            <div class="navbar-nav flex-row ms-auto">
+                <a href="about.html" class="nav-icon-link me-3">
+                    <i class="bi bi-info-circle"></i>
+                    <span class="tooltip-label">About</span>
+                </a>
+
+                <a href="contact.html" class="nav-icon-link">
+                    <i class="bi bi-envelope"></i>
+                    <span class="tooltip-label">Contact</span>
+                </a>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Main page content -->
+    <main class="flex-grow-1">
+        <!-- ================= CONTACT HERO ================= -->
+        <section class="contact-hero py-5">
+            <div class="container py-5">
+                <div class="text-center text-white">
+                    <h1 class="display-4 fw-bold mb-3">
+                        Contact Us
+                    </h1>
+                    <p class="lead mx-auto"
+                    style="max-width:700px;">
+                        Have questions about our books, collections, or services?
+                        We'd love to hear from you.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= CONTACT SECTION ================= -->
+        <section class="py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+
+                    <!-- Contact Information -->
+                    <div class="col-lg-5">
+                        <h2 class="fw-bold mb-4">
+                            Get In Touch
+                        </h2>
+
+                        <p class="text-secondary mb-4">
+                            Whether you need help finding a book, have feedback,
+                            or want to know more about BookVerse, our team is
+                            ready to help.
+                        </p>
+
+                        <div class="d-flex align-items-center mb-4">
+                            <i class="bi bi-geo-alt-fill text-primary fs-3 me-3"></i>
+                            <div>
+                                <h6 class="mb-1">
+                                    Address
+                                </h6>
+                                <span class="text-secondary">
+                                    123 Book Street, Reading City
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="d-flex align-items-center mb-4">
+                            <i class="bi bi-envelope-fill text-primary fs-3 me-3"></i>
+                            <div>
+                                <h6 class="mb-1">
+                                    Email
+                                </h6>
+                                <span class="text-secondary">
+                                    support@bookverse.com
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="d-flex align-items-center mb-4">
+                            <i class="bi bi-telephone-fill text-primary fs-3 me-3"></i>
+                            <div>
+                                <h6 class="mb-1">
+                                    Phone
+                                </h6>
+                                <span class="text-secondary">
+                                    +1 234 567 890
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="d-flex gap-3 mt-4">
+                            <a href="#" class="text-dark fs-4">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+
+                            <a href="#" class="text-dark fs-4">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+
+                            <a href="#" class="text-dark fs-4">
+                                <i class="bi bi-twitter-x"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="col-lg-7">
+                        <div class="p-4 p-md-5 shadow-sm rounded-4 border">
+
+                            <h3 class="fw-bold mb-4">
+                                Send Us A Message
+                            </h3>
+
+                            <form>
+                                <div class="row g-3">
+
+                                    <div class="col-md-6">
+                                        <label class="form-label">
+                                            Name
+                                        </label>
+
+                                        <input type="text"
+                                            class="form-control"
+                                            placeholder="Your name">
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label class="form-label">
+                                            Email
+                                        </label>
+
+                                        <input type="email"
+                                            class="form-control"
+                                            placeholder="Your email">
+                                    </div>
+
+                                    <div class="col-12">
+                                        <label class="form-label">
+                                            Subject
+                                        </label>
+
+                                        <input type="text"
+                                            class="form-control"
+                                            placeholder="Message subject">
+                                    </div>
+
+                                    <div class="col-12">
+                                        <label class="form-label">
+                                            Message
+                                        </label>
+
+                                        <textarea class="form-control"
+                                                rows="5"
+                                                placeholder="Write your message"></textarea>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <button type="submit"
+                                                class="btn btn-primary rounded-pill px-4">
+                                            <i class="bi bi-send me-2"></i>
+                                            Send Message
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= FAQ / HELP ================= -->
+        <section class="py-5 bg-light">
+            <div class="container text-center">
+
+                <h2 class="fw-bold mb-3">
+                    Need Help Finding a Book?
+                </h2>
+
+                <p class="text-secondary mb-4">
+                    Our team can help you discover your next favorite story.
+                </p>
+
+                <a href="books.html"
+                class="btn btn-primary rounded-pill px-4">
+                    Explore Books
+                </a>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer-section background-color text-dark mt-auto">
+      <div class="container py-5">
+        <div class="row text-center gy-4">
+          <div class="col-md-4">
+            <div class="footer-icon">
+              <i class="bi bi-envelope-fill"></i>
+            </div>
+            <p class="mb-0">
+              <a href="mailto:support@bookstore.com" class="footer-link">support@bookstore.com</a>
+            </p>
+          </div>
+
+          <div class="col-md-4">
+            <div class="footer-icon">
+              <i class="bi bi-telephone-fill"></i>
+            </div>
+            <p class="mb-0">
+              <a href="tel:+911234567890" class="footer-link">+91 12345 67890</a>
+            </p>
+          </div>
+
+          <div class="col-md-4">
+            <div class="footer-icon">
+              <i class="bi bi-geo-alt-fill"></i>
+            </div>
+            <p class="mb-0">
+              123 Book Street, Reading Lane,<br>
+              Visakhapatnam - 530016
+            </p>
+          </div>
+        </div>
+
+        <hr class="footer-divider my-4">
+
+        <div class="text-center small footer-note">
+          Open daily 9 AM – 9 PM. For bulk orders, please email us directly —
+          response time within 2 working days.
+        </div>
+
+        <div class="text-center mt-3">
+          <a href="#" class="footer-link me-3">Terms of Service</a>
+          <a href="#" class="footer-link">Privacy Policy</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+  </body>
+
+  <style>
+    .about-media{
+        width:100%;
+        height:420px;
+        object-fit:cover;
+        border-radius:30px;
+    }
+
+    .feature-box{
+        padding:25px;
+        transition:.3s ease;
+    }
+
+    .feature-box:hover{
+        transform:translateY(-8px);
+    }
+    
+    .background-color {
+      background-color: #e8f1f9;
+    }
+
+    .navbar-brand, .nav-icon-link {
+      color: #0d3b66 !important;
+    }
+
+    .nav-icon-link {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      padding: 0.5rem 0.75rem;
+      font-size: 1.2rem;
+    }
+
+    .nav-icon-link:hover .tooltip-label {
+      opacity: 1;
+    }
+
+    .tooltip-label {
+      position: absolute;
+      top: calc(100% + 8px);
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #333;
+      color: #fff;
+      font-size: 12px;
+      padding: 4px 8px;
+      border-radius: 4px;
+      white-space: nowrap;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.15s ease;
+      z-index: 9999;
+    }
+
+    .tooltip-label::before {
+      content: '';
+      position: absolute;
+      bottom: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      border: 5px solid transparent;
+      border-bottom-color: #333;
+    }
+
+    .download-tooltip {
+        position: relative;
+        display: inline-block;
+    }
+
+    .download-tooltip:hover .tooltip-label {
+        opacity: 1;
+    }
+        
+    .contact-hero {
+        background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+                    url('contactUs.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .contact-form input,
+    .contact-form textarea{
+        border-radius:12px;
+    }
+
+  </style>
+</html>
