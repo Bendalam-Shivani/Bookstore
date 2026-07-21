@@ -1,6 +1,6 @@
 # 📚 BookVerse – Online Bookstore
 
-A responsive online bookstore website built using **HTML, CSS, Bootstrap 5, and JavaScript**. The website provides a clean and modern interface for exploring popular book series, viewing book details, downloading PDFs, and learning more about the bookstore.
+A responsive online bookstore website built using **HTML, CSS and Bootstrap 5**. The website provides a clean and modern interface for exploring popular book series, viewing book details, downloading PDFs, and learning more about the bookstore.
 
 ---
 
@@ -26,13 +26,6 @@ BookVerse/
 ├── index.html
 ├── about.html
 ├── contact.html
-│
-├── css/
-│   └── style.css
-│
-├── images/
-│
-├── videos/
 │
 ├── Books/
 │   ├── Book_1/
@@ -71,7 +64,6 @@ Each collection contains:
 - HTML5
 - CSS3
 - Bootstrap 5.3.8
-- JavaScript
 - Bootstrap Icons
 
 ---
